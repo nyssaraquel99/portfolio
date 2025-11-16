@@ -1,0 +1,61 @@
+body {
+}
+
+#top {
+  text-align: center;
+  background-color: DarkSlateGray;
+  color: HoneyDew
+}
+
+#top-menu {
+  text-align: center;
+  padding-top: 20px;
+  padding-botom: 20px;
+}
+
+#main {
+  background-color: Black;
+}
+
+#bottom {
+  text-align: center;
+  background-color: DarkSlateGray;
+  color: HoneyDew;
+}
+
+#bottom-menu {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: PaleGreen
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+  color: HoneyDew;
+}
+
+a {
+  color: LimeGreen;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.detail {
+  color: LimeGreen;
+}
