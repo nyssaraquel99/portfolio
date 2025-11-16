@@ -47,6 +47,10 @@ p {
   color: HoneyDew;
 }
 
+ul {
+  color: HoneyDew;
+}
+
 a {
   color: LimeGreen;
   text-decoration: none;
@@ -58,4 +62,5 @@ a {
 
 .detail {
   color: LimeGreen;
+
 }
