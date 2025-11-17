@@ -30,8 +30,10 @@ body {
 /* Cat box */
 #cat {
   height: 100px;
-  width: 100px;
+  width: 200px;
+  font-size: 8px;
   font-family: "Lucida Console","Monaco", monospace;
+  margin: auto;
 }
 
 /* Headings */
@@ -69,3 +71,4 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
