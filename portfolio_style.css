@@ -34,6 +34,7 @@ body {
   font-size: 8px;
   font-family: "Lucida Console","Monaco", monospace;
   margin: auto;
+  white-space: pre;
 }
 
 /* Headings */
@@ -72,5 +73,6 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
 
