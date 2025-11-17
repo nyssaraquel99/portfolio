@@ -2,7 +2,8 @@
 @font-face {
   font-family: "Kode Mono";
   src: url(KodeMonoRegular.ttf);
-
+}
+  
 body {
   background-color: Black;
   color: HoneyDew;
@@ -81,3 +82,4 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
