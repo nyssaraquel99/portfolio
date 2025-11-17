@@ -1,4 +1,8 @@
 /* Base */
+@font-face {
+  font-family: "Kode Mono";
+  src: url(KodeMonoRegular.ttf);
+
 body {
   background-color: Black;
   color: HoneyDew;
@@ -61,7 +65,7 @@ h3 {
 
 /* Links */
 a {
-  font-family: "Lucida Console","Monaco", monospace;
+  font-family: "Kode Mono","Lucida Console","Monaco", monospace;
   color: White;
   text-decoration: none;
 }
@@ -77,6 +81,3 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
-
-
-
