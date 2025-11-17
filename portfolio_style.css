@@ -1,7 +1,7 @@
 /* Base */
 @font-face {
   font-family: "Kode Mono";
-  src: url(KodeMonoRegular.ttf);
+  src: url(KodeMono-Regular.ttf);
 }
   
 body {
@@ -82,4 +82,5 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
