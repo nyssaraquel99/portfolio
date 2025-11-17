@@ -33,26 +33,29 @@ body {
   width: 200px;
   font-size: 8px;
   font-family: "Lucida Console","Monaco", monospace;
-  margin: auto;
   white-space: pre;
+  margin: auto;
+  padding-top: 20px;
 }
 
 /* Headings */
 h1, h2, h3 {
   text-align: center;
   color: White;
-  text-shadow: 0 0 6px PaleGreen;
   letter-spacing: 3px;
 }
 h1 {
   font-size: 56px;
   text-transform: uppercase;
+  text-shadow: 0 0 6px PaleGreen;
 }
 h2 {
   font-size: 32px;
+  text-shadow: 0 0 3px PaleGreen;
 }
 h3 {
   font-size:24px;
+  text-shadow: 0 0 3px PaleGreen;
 }
 
 /* Links */
@@ -73,6 +76,7 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
 
 
