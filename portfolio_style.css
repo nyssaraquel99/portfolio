@@ -30,11 +30,12 @@ body {
 /* Cat box */
 #cat {
   height: 100px;
-  width: 200px;
+  width: 116px;
   font-size: 8px;
   font-family: "Lucida Console","Monaco", monospace;
   white-space: pre;
   margin: auto;
+  line-height:3px;
   padding-top: 20px;
 }
 
@@ -76,7 +77,3 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
-
-
-
-
