@@ -3,6 +3,7 @@ body {
   background-color: Black;
   color: HoneyDew;
   font-size: 18px;
+  font-family: "Didot","Times New Roman",serif;
 }
 
 /* Top and bottom bars */
@@ -24,6 +25,13 @@ body {
 #main {
   background-color: Black;
   color: HoneyDew;
+}
+
+/* Cat box */
+#cat {
+  height: 100px;
+  width: 100px;
+  font-family: "Lucida Console","Monaco", monospace;
 }
 
 /* Headings */
@@ -59,7 +67,5 @@ a:hover {
 }
 
 .detail {
-  letter-spacing: 2px
+  letter-spacing: 2px;
 }
-
-
