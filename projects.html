@@ -1,108 +1,119 @@
 <HTML>
-<HEAD>
-<TITLE>Nyssa Raquel Miller - Projects</TITLE>
-<LINK REL="stylesheet" HREF="portfolio_style.css">
-</HEAD>
-
-<BODY>
-<!--PROJECTS-->
-<DIV ID="top">
-<H1>Nyssa Raquel Miller</H1>
-<P>
-<!--SITE LINKS-->
-<DIV ID="top-menu">
-<A HREF="index.html">Home</A> &#124; 
-<A HREF="projects.html">Projects</A> &#124; 
-<A HREF="resume.html">Resume</A> &#124; 
-<A HREF="https://github.com/nyssaraquel99" target="_blank">GitHub</A> &#124; 
-<A HREF="https://www.linkedin.com/in/nyssa-raquel-miller/" target="_blank">LinkedIn</A> &#124; 
-<A HREF="mailto:nyssamiller23@gmail.com">Contact</A>
-</DIV>
-</P>
-</DIV>
-<DIV ID="main">
-<H2>Congressional Seats</H2>
-<P>
-<i>October 2025</i><br>
-Webscraping &#149; Python<br>
-<br>
-<!-- Insert Photos Here -->
-<IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/sen_chart.png?raw=true" width="49%">
-<IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/hou_chart.png?raw=true" width="49%">
-<br>
-<IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/sen_count_chart.png?raw=true" width="49%">
-<IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/hou_count_chart.png?raw=true" width="49%">
-<br>
-To visualize how party lines have evolved over time in the United States, I developed a tool to 
-webscrape Wikipedia (Party Divisions of United States Congresses).<br>
-I used the data I retrieved through webscraping to create two pairs of charts: one showing the total 
-count of seats over time, which gave a great visual of America's growth over its 250 year history, 
-and another showing the percent share of seats, which gave an idea of which party held power in each 
-congress.<br>
-This project reinforced my skills in:
-<UL>
-<LI>Data Collection &#150; I created a headless browser using Selenium in order to access Wikipedia. 
-With BeautifulSoup, I extracted the HTML table data from Wikipedia and converted it to a Pandas 
-DataFrame.
-<LI>Data Cleaning &#150; The table data I extracted directly from Wikipedia was complex and filled 
-with annotations. I systematically split the data by congress and party, then removed annotations to 
-preserve the numerical data.
-<LI>Data Visualization &#150; I created the final images by importing the cleaned data to Microsoft 
-Excel, where I generated two styles of column charts.
-<LI>Python Programming &#150; This project required extensive work with Pandas DataFrames. The final 
-program had a little over two hundred lines of code.
-</UL>
-<A HREF="https://github.com/nyssaraquel99/congressionalseats2025">View Code on GitHub</A>
-</P>
-<H2>Weather Dashboard</H2>
-<P>
-<i>September 2025</i><br>
-Rest APIs &#149; Python<br>
-<br>
-<!-- Insert Photos Here -->
-<IMG SRC="https://raw.githubusercontent.com/nyssaraquel99/weatherdashboard2025/refs/heads/main/examples/Sample_Dashboard_BEI.png" width="49%">
-<IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_BOS.png?raw=true" width="49%">
-<br>
-<IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_FRA.png?raw=true" width="49%">
-<IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_SATX.png?raw=true" width="49%">
-<br>
-Using OpenWeather's free API service, I wrote the framework for a weather dashboard in Python.<br>
-I parsed the data from json format to collect current weather data including temperature, high and 
-low temperatures, feels like temperature, humidity, wind speed and direction, air pressure, and a 
-brief qualitiative description of weather conditions. I also collected a five-day weather forecast 
-and used the data to plot temperature with feels like temperature at a 24 hour scale, temperature at 
-a 120 hour scale, and to build a table detailing predicted weather conditions and precipitation 
-chance. Next I collected air quality data, including concentrations for pollutants and particulates, 
-and generated a color-coded Air Quality Report dashboard.<br>
-This project reinforced my skills in:
-<UL>
-<LI>Data Collection &#150; I used four different APIs to gather all needed data. In order to extract 
-the data I needed, I had to work with json files, Pandas DataFrames, and dictionaries.
-<LI>Data Visualization &#150; I worked extensively with the Matplotlib Python library. The 24-hour 
-and 120-hour temperature forecasts used line plots. The Air Quality Report used bar charts to 
-display index and air component levels.
-<LI>Python Programming &#150; Generating the reports required several complex functions, such as my 
-"get_stacks" function, which wa snecessary to create the color-coded bands for the Air Quality 
-Report, as well as the use of several libraries. The final program had nearly five hundred lines of 
-code.
-</UL>
-<A HREF="https://github.com/nyssaraquel99/weatherdashboard2025">View Code on GitHub</A>
-</P>
-</DIV>
-<DIV ID="bottom">
-<P>
-<DIV ID="bottom-menu">
-<A HREF="index.html">Home</A> &#124; 
-<A HREF="projects.html">Projects</A> &#124; 
-<A HREF="resume.html">Resume</A> &#124; 
-<A HREF="https://github.com/nyssaraquel99" target="_blank">GitHub</A> &#124; 
-<A HREF="https://www.linkedin.com/in/nyssa-raquel-miller/" target="_blank">LinkedIn</A> &#124; 
-<A HREF="mailto:nyssamiller23@gmail.com">Contact</A>
-</DIV>
-&#169; 2025
-</P>
-</DIV>
-</BODY>
+  <HEAD>
+    <TITLE>Nyssa Raquel Miller - Projects</TITLE>
+    <LINK REL="stylesheet" HREF="portfolio_style.css">
+  </HEAD>
+  
+  <BODY>
+    <!--PROJECTS-->
+    <DIV ID="top">
+      <H1>Nyssa Raquel Miller</H1>
+        <P>
+        <!--SITE LINKS-->
+          <DIV ID="top-menu">
+            <A HREF="index.html">Home</A> &#124; 
+            <A HREF="projects.html">Projects</A> &#124; 
+            <A HREF="resume.html">Resume</A> &#124; 
+            <A HREF="https://github.com/nyssaraquel99" target="_blank">GitHub</A> &#124; 
+            <A HREF="https://www.linkedin.com/in/nyssa-raquel-miller/" target="_blank">LinkedIn</A> &#124; 
+            <A HREF="mailto:nyssamiller23@gmail.com">Contact</A>
+          </DIV>
+        </P>
+    </DIV>
+    <DIV ID="main">
+      <H2>Austin Crash Data</H2>
+        <P>
+          <i>November 2025</i><br>
+          Google Looker Studio &#149; Python<br>
+          <!-- Insert embedded report here -->
+          <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/a1ac2a81-8e07-46ee-b554-e5f6feaf40a2/page/0f0eF" frameborder="0" 
+            style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups 
+            allow-popups-to-escape-sandbox"></iframe><br>
+          <!-- Add description -->
+        </P>
+      <H2>Congressional Seats</H2>
+        <P>
+          <i>October 2025</i><br>
+          Webscraping &#149; Python<br>
+          <br>
+          <!-- Insert Photos Here -->
+          <IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/sen_chart.png?raw=true" width="49%">
+          <IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/hou_chart.png?raw=true" width="49%">
+          <br>
+          <IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/sen_count_chart.png?raw=true" width="49%">
+          <IMG SRC="https://github.com/nyssaraquel99/congressionalseats2025/blob/main/examples/hou_count_chart.png?raw=true" width="49%">
+          <br>
+          To visualize how party lines have evolved over time in the United States, I developed a tool to 
+          webscrape Wikipedia (Party Divisions of United States Congresses).<br>
+          I used the data I retrieved through webscraping to create two pairs of charts: one showing the total 
+          count of seats over time, which gave a great visual of America's growth over its 250 year history, 
+          and another showing the percent share of seats, which gave an idea of which party held power in each 
+          congress.<br>
+          This project reinforced my skills in:
+          <UL>
+            <LI>Data Collection &#150; I created a headless browser using Selenium in order to access Wikipedia. 
+            With BeautifulSoup, I extracted the HTML table data from Wikipedia and converted it to a Pandas 
+            DataFrame.
+            <LI>Data Cleaning &#150; The table data I extracted directly from Wikipedia was complex and filled 
+            with annotations. I systematically split the data by congress and party, then removed annotations to 
+            preserve the numerical data.
+            <LI>Data Visualization &#150; I created the final images by importing the cleaned data to Microsoft 
+            Excel, where I generated two styles of column charts.
+            <LI>Python Programming &#150; This project required extensive work with Pandas DataFrames. The final 
+            program had a little over two hundred lines of code.
+          </UL>
+          <A HREF="https://github.com/nyssaraquel99/congressionalseats2025">View Code on GitHub</A>
+        </P>
+    <H2>Weather Dashboard</H2>
+      <P>
+        <i>September 2025</i><br>
+        Rest APIs &#149; Python<br>
+        <br>
+        <!-- Insert Photos Here -->
+        <IMG SRC="https://raw.githubusercontent.com/nyssaraquel99/weatherdashboard2025/refs/heads/main/examples/Sample_Dashboard_BEI.png" width="49%">
+        <IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_BOS.png?raw=true" width="49%">
+        <br>
+        <IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_FRA.png?raw=true" width="49%">
+        <IMG SRC="https://github.com/nyssaraquel99/weatherdashboard2025/blob/main/examples/Sample_Dashboard_SATX.png?raw=true" width="49%">
+        <br>
+        Using OpenWeather's free API service, I wrote the framework for a weather dashboard in Python.<br>
+        I parsed the data from json format to collect current weather data including temperature, high and 
+        low temperatures, feels like temperature, humidity, wind speed and direction, air pressure, and a 
+        brief qualitiative description of weather conditions. I also collected a five-day weather forecast 
+        and used the data to plot temperature with feels like temperature at a 24 hour scale, temperature at 
+        a 120 hour scale, and to build a table detailing predicted weather conditions and precipitation 
+        chance. Next I collected air quality data, including concentrations for pollutants and particulates, 
+        and generated a color-coded Air Quality Report dashboard.<br>
+        This project reinforced my skills in:
+        <UL>
+          <LI>Data Collection &#150; I used four different APIs to gather all needed data. In order to extract 
+          the data I needed, I had to work with json files, Pandas DataFrames, and dictionaries.
+          <LI>Data Visualization &#150; I worked extensively with the Matplotlib Python library. The 24-hour 
+          and 120-hour temperature forecasts used line plots. The Air Quality Report used bar charts to 
+          display index and air component levels.
+          <LI>Python Programming &#150; Generating the reports required several complex functions, such as my 
+          "get_stacks" function, which wa snecessary to create the color-coded bands for the Air Quality 
+          Report, as well as the use of several libraries. The final program had nearly five hundred lines of 
+          code.
+        </UL>
+        <A HREF="https://github.com/nyssaraquel99/weatherdashboard2025">View Code on GitHub</A>
+      </P>
+    </DIV>
+    <DIV ID="bottom">
+      <P>
+        <DIV ID="bottom-menu">
+          <A HREF="index.html">Home</A> &#124; 
+          <A HREF="projects.html">Projects</A> &#124; 
+          <A HREF="resume.html">Resume</A> &#124; 
+          <A HREF="https://github.com/nyssaraquel99" target="_blank">GitHub</A> &#124; 
+          <A HREF="https://www.linkedin.com/in/nyssa-raquel-miller/" target="_blank">LinkedIn</A> &#124; 
+          <A HREF="mailto:nyssamiller23@gmail.com">Contact</A>
+        </DIV>
+        &#169; 2025
+      </P>
+    </DIV>
+  </BODY>
 </HTML>
+
 
 
