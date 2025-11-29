@@ -19,6 +19,7 @@ body {
   color: HoneyDew;
   font-size: 18px;
   font-family: "Playfair","Didot","Times New Roman",serif;
+  letter-spacing: 1px;
 }
 
 i {
@@ -96,6 +97,7 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
 
 
