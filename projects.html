@@ -25,12 +25,32 @@
         <P>
           <i>November 2025</i><br>
           Google Looker Studio &#149; Python<br>
+          <br>
           <!-- Insert embedded report here -->
           <iframe 
             width="70%" height="600px" src="https://lookerstudio.google.com/embed/reporting/a1ac2a81-8e07-46ee-b554-e5f6feaf40a2/page/0f0eF" frameborder="0" 
             style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups 
-            allow-popups-to-escape-sandbox"></iframe><br>
+            allow-popups-to-escape-sandbox"></iframe>
+          <br>
           <!-- Add description -->
+          Using Google Looker Studio and a public dataset from the city of Austin, I reproduced Austin's Vision 
+          Zero Viewer, which visualizes traffic accidents throughout the city.<br>
+          I visualized the data in four different formats: large figures along the top of the report to provide 
+          an overview of the figures the report explores, a column chart comparing this year's data versus the 
+          five year average, a stacked column chart showing accident trends by mode of transportation, and a map 
+          that displays the distribution of accidents for 2025 and the severity of each accident.<br>
+          This project reinforced my skills in:
+          <UL>
+            <LI>Data Cleaning &#150; The original dataset contained over 224,000 entries. In order to create the 
+              dashboard, I had to select relevant subsets from the dataset, as well as isolate figures I needed 
+              using the .groupby() method in Pandas. I was able to perform the data wrangling in Python using 
+              about 80 lines of code.
+            <LI>Data Visualization &#150; I created the dashboard using Google Looker Studio. In order to allow 
+              users to filter the data in the visuals, I was challenged to develop advanced formulas to create 
+              the dropdown menus. I also wrote formulas to generate the geographical data needed to create the 
+              map visualization.
+          </UL>
+          <A HREF="https://github.com/nyssaraquel99/austincrashdata2025">View Code on GitHub</A>
         </P>
       <H2>Congressional Seats</H2>
         <P>
@@ -115,6 +135,7 @@
     </DIV>
   </BODY>
 </HTML>
+
 
 
 
