@@ -47,6 +47,12 @@ i {
   color: HoneyDew;
 }
 
+/* iframe */
+iframe {
+  margin: auto;
+  display: block;
+}
+
 /* Cat box */
 #cat {
   height: 100px;
@@ -97,6 +103,7 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
 
 
